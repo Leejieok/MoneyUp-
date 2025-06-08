@@ -1,0 +1,32 @@
+# 🌱 공통 무시
+**/.env
+**/.env.local
+**/.DS_Store
+**/node_modules/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/.vscode/
+**/.idea/
+
+# 📦 Vue.js (front/)
+front/node_modules/
+front/dist/
+front/.output/
+front/.vite/
+front/coverage/
+front/.eslintcache
+
+# 🐍 Django (back/)
+back/db.sqlite3
+back/media/
+back/staticfiles/
+back/.mypy_cache/
+back/.pytest_cache/
+back/.coverage
+back/coverage.xml
+back/htmlcov/
+
+# 📄 로그/캐시/테스트 파일
+**/*.log
+**/tmp/
